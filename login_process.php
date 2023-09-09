@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         // Redirect to the appropriate dashboard based on user role
         if ($_SESSION['role'] === 'admin') {
-            header('Location: admin_dashboard.php');
+            header('Location: manage_classes.php');
         } elseif ($_SESSION['role'] === 'teacher') {
             header('Location: teacher_dashboard.php');
         } elseif ($_SESSION['role'] === 'student') {
