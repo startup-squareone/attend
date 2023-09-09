@@ -1,8 +1,8 @@
 <?php
-$servername = 'your_db_servername';
-$username = 'your_db_username';
-$password = 'your_db_password';
-$database = 'your_db_name';
+$servername = 'localhost';
+$username = 'admin';
+$password = 'administrator';
+$database = 'attendance_management';
 
 $conn = new mysqli($servername, $username, $password, $database);
 
