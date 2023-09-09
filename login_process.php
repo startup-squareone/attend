@@ -27,11 +27,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header('Location: student_dashboard.php');
         } else {
             // Handle unrecognized roles
-            header('Location: login.php');
+            header('Location: login_process.php');
         }
     } else {
         // Invalid credentials
-        header('Location: login.php');
+        header('Location: login_process.php');
     }
 }
 ?>
